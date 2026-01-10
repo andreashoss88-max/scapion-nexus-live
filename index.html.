@@ -17,7 +17,6 @@
     </style>
 </head>
 <body class="gradient-bg min-h-screen flex flex-col items-center justify-center p-6 text-center">
-
     <div class="mb-12">
         <div class="w-32 h-32 mx-auto mb-6 nexus-symbol rounded-full flex items-center justify-center bg-black gold-glow relative">
             <span class="text-[#d4af37] font-black text-5xl italic tracking-tighter">S</span>
@@ -26,12 +25,9 @@
         <h1 class="text-6xl md:text-8xl font-black tracking-tighter uppercase italic mb-2">SCAPION <span class="gold-text">NEXUS</span></h1>
         <p class="text-gray-500 tracking-[0.9em] text-[10px] uppercase font-bold">Secure Digital Legacy Protocol</p>
     </div>
-
     <div class="w-full max-w-3xl bg-white/5 gold-border p-10 md:p-16 rounded-[3.5rem] backdrop-blur-3xl shadow-2xl relative overflow-hidden">
         <div class="absolute top-0 left-0 w-full h-1 gold-bg opacity-20"></div>
-        
         <h2 class="text-3xl md:text-4xl font-light mb-10 italic leading-tight">Deine Daten. Dein Erbe. <br><b class="text-white">Autonom gesichert.</b></h2>
-        
         <div class="grid md:grid-cols-2 gap-8 mb-12 text-left">
             <div class="p-6 bg-black/50 border border-white/5 rounded-2xl hover:border-[#d4af37]/50 transition-colors">
                 <h3 class="gold-text font-bold mb-3 uppercase tracking-widest text-xs">Watcher Protocol</h3>
@@ -39,26 +35,15 @@
             </div>
             <div class="p-6 bg-black/50 border border-white/5 rounded-2xl hover:border-[#d4af37]/50 transition-colors">
                 <h3 class="gold-text font-bold mb-3 uppercase tracking-widest text-xs">Zero-Knowledge</h3>
-                <p class="text-gray-400 text-xs leading-relaxed">Keiner hat Zugriff außer dir und deinen Erben. Vollverschlüsselt. Unhackbar. Dein Vermächtnis.</p>
+                <p class="text-gray-400 text-xs leading-relaxed">Keiner hat Zugriff außer dir und deinen Erben. Vollverschlüsselt. Unhackbar.</p>
             </div>
         </div>
-
         <a href="https://buy.stripe.com/aFa28k9VO3H74DL5QY1Jm02" class="block w-full py-7 gold-bg text-black text-center font-black tracking-[0.2em] uppercase rounded-2xl hover:bg-white transition-all transform hover:scale-[1.02] gold-glow text-2xl shadow-xl">
             NEXUS AKTIVIEREN — 290€
         </a>
-        
-        <div class="mt-10 flex items-center justify-center space-x-4 opacity-50">
-            <span class="text-[8px] text-gray-400 uppercase tracking-widest italic">Patent Pending</span>
-            <span class="w-1 h-1 bg-gray-600 rounded-full"></span>
-            <span class="text-[8px] text-gray-400 uppercase tracking-widest italic">Military Grade</span>
-            <span class="w-1 h-1 bg-gray-600 rounded-full"></span>
-            <span class="text-[8px] text-gray-400 uppercase tracking-widest italic">Blockchain Secured</span>
-        </div>
     </div>
-
     <footer class="mt-20 text-gray-700 text-[10px] tracking-[0.5em] uppercase font-medium">
         &copy; 2026 Scapion Nexus Operations. Built for the 1%.
     </footer>
-
 </body>
 </html>
