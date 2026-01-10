@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCESS GRANTED | Scapion Nexus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #05070a; color: white; font-family: 'Inter', sans-serif; }
+        .gold-border { border: 1px solid #d4af37; }
+        .gold-text { color: #d4af37; }
+        .gold-glow { box-shadow: 0 0 50px rgba(212, 175, 55, 0.2); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-6 text-center">
+
+    <div class="max-w-2xl w-full bg-white/5 gold-border p-12 rounded-[3rem] backdrop-blur-3xl gold-glow">
+        <div class="mb-8">
+            <svg class="w-20 h-20 mx-auto text-[#d4af37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+        </div>
+
+        <h1 class="text-4xl font-black uppercase italic mb-4">Zahlung <span class="gold-text">Bestätigt</span></h1>
+        <p class="text-gray-400 mb-10 tracking-widest text-sm">WILLKOMMEN IM NEXUS PROTOKOLL</p>
+
+        <div class="text-left space-y-6 mb-10">
+            <div class="border-l-2 border-[#d4af37] pl-4">
+                <p class="text-xs uppercase gold-text font-bold">Schritt 1</p>
+                <p class="text-sm">Prüfe dein E-Mail Postfach für den Verschlüsselungs-Key.</p>
+            </div>
+            <div class="border-l-2 border-[#d4af37] pl-4">
+                <p class="text-xs uppercase gold-text font-bold">Schritt 2</p>
+                <p class="text-sm">Hinterlege deine Erben im Dashboard (Link in der Mail).</p>
+            </div>
+        </div>
+
+        <button onclick="window.location.href='/'" class="w-full py-4 border border-white/20 rounded-xl hover:bg-white/10 transition-all uppercase tracking-widest text-xs font-bold">
+            Zurück zum Main Hub
+        </button>
+    </div>
+
+    <p class="mt-8 text-[9px] text-gray-600 uppercase tracking-widest">System Status: Secure | Watcher: Initializing...</p>
+
+</body>
+</html>
